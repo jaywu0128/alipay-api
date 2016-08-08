@@ -29,8 +29,8 @@ var url = alipay.buildPCPayURL(order);
 var alipay.buildWapPayUrl(order);
 
 //处理回调
-alipay.notify(array, function(result) {
-
+alipay.notify(params, function(result) {
+//params为回调参数
     if (result == true) {
         return '校验成功'
     }
