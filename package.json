@@ -1,0 +1,28 @@
+{
+  "name": "alipay",
+  "version": "1.0.0",
+  "description": "alipay",
+  "author": "jaywu",
+  "main": "index.js",
+  "dependencies": {
+    "crypto": "^0.0.3",
+    "querystring": "^0.2.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/wjy201230560128/alipay.git"
+  },
+  "keywords": [
+    "aili",
+    "pay"
+  ],
+  "license": "ISC"
+}
