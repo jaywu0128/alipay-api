@@ -3,8 +3,6 @@ npm install alipay
 
 var alipay = require('alipay');
 
-var alipay = require('./../lib/alipay');
-
 alipay = new alipay({
     seller_email: 'xxxxxxxxxx',
     seller_id: 'xxxxxxxxxx',
